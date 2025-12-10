@@ -1,7 +1,7 @@
 :root {
-  --header-padding-horizontal: 50px;
+  --header-margin-horizontal: 50px;
   --header-height: 60px;
-  --nav-accent-color: #00ACDC;
+  --nav-accent-color: #00acdc;
 }
 
 body {
@@ -15,11 +15,11 @@ body {
 }
 
 .header > :first-child {
-  padding-left: var(--header-padding-horizontal);
+  margin-left: var(--header-margin-horizontal);
 }
 
 .header > :last-child {
-  padding-right: var(--header-padding-horizontal);
+  margin-right: var(--header-margin-horizontal);
 }
 
 /* .header_logo {
@@ -33,6 +33,7 @@ body {
 .header_list {
   display: flex;
   margin: 0;
+  padding: 0;
 }
 
 .header_item {
