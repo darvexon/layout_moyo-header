@@ -33,6 +33,7 @@ body {
 .header_list {
   display: flex;
   margin: 0;
+  padding: 0;
 }
 
 .header_item {
@@ -68,11 +69,11 @@ body {
 
 .header_link.is-active {
   position: relative;
-  color: var(--nav-accent-color)
+  color: var(--nav-accent-color);
 }
 
 .header_link.is-active::after {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 0;
   left: 0;
