@@ -33,7 +33,6 @@ body {
 .header_list {
   display: flex;
   margin: 0;
-  padding: 0;
 }
 
 .header_item {
@@ -41,7 +40,6 @@ body {
   align-items: center;
   list-style: none;
   margin: 0 10px;
-  position: relative;
 }
 
 .header_item:first-child {
@@ -68,12 +66,13 @@ body {
   color: var(--nav-accent-color);
 }
 
-.is-active {
-  color: var(--nav-accent-color);
+.header_link.is-active {
+  position: relative;
+  color: var(--nav-accent-color)
 }
 
-.is-active::after {
-  content: '';
+.header_link.is-active::after {
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
